@@ -4,11 +4,6 @@
     overflow-y: hidden;
 }
 
-.top-container {
-    background-color: brown;
-    height: 60px;
-}
-
 .layout-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -44,4 +39,25 @@
     grid-column: 2 / 7;
     grid-row: 14 / 18;
     background-color: cornflowerblue;
+}
+
+
+.top-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: O;
+    grid-auto-rows: minmax(60px, auto);
+    background-color: brown;
+    height: 60px;
+}
+
+.hotel-icon {
+    padding: 6px;
+    width: 50px;
+    height: 50px;
+}
+
+.hotel-container {
+    grid-column: 1;
+    grid-row: 1;
 }
