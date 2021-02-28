@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.top-container {
+    background-color: brown;
+    height: 60px;
+}
+
+.layout-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: O;
+    grid-auto-rows: minmax(60px, auto);
+}
+
+.side-container {
+    grid-column: 1;
+    grid-row: 1 / 18;
+    background-color: burlywood;
+}
+
+.images-container {
+    grid-column: 2 / 7;
+    grid-row: 1 / 4;
+    background-color: cadetblue;
+}
+
+.rating-container {
+    grid-column: 2 / 7;
+    grid-row: 4;
+    background-color: chartreuse;
+}
+
+.main-container {
+    grid-column: 2 / 7;
+    grid-row: 5 / 14;
+    background-color: chocolate;
+}
+
+.footer-container {
+    grid-column: 2 / 7;
+    grid-row: 14 / 18;
+    background-color: cornflowerblue;
+}
