@@ -176,6 +176,22 @@
     padding-left: 20px;
 }
 
+.address-container {
+    grid-column: 5 / 7;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.address-container img {
+    width: 20px;
+}
+
+.address-container address {
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
 .main-container {
     grid-column: 2 / 8;
     grid-row: 5 / 14;
