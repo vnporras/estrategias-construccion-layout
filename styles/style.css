@@ -186,7 +186,7 @@
 
 .address-container img {
     width: 20px;
-    color-interpolation-filters: #a55fd2;
+     
 }
 
 .address-container address {
@@ -215,4 +215,21 @@
     grid-column: 3 / 12;
     grid-row: 14 / 18;
     background-color: #f4f4f4;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.footer-container button {
+    border-radius: 30px;
+    background:  linear-gradient(to right, #82E0AA, #1ABC9C, #3498DB);;
+    color: white;
+    height: 40px;
+    width: 180px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 10px;
+
 }
