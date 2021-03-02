@@ -110,7 +110,6 @@
 
 
 
-
 .layout-container {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -185,8 +184,7 @@
 }
 
 .address-container img {
-    width: 20px;
-     
+    width: 20px;       
 }
 
 .address-container address {
@@ -205,6 +203,27 @@
 }
 
 
+.side-container li {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
+}
+
+.side-container img {
+    width: 20px; 
+    
+}
+
+
+
+
+
+
+
 .main-container {
     grid-column: 3 / 12;
     grid-row: 5 / 14;
@@ -218,8 +237,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
-    
+    padding-top: 60px;  
 }
 
 .footer-container button {
@@ -230,6 +248,5 @@
     width: 180px;
     box-sizing: border-box;
     border: 1px solid black;
-    margin-top: 10px;
-
+    margin-top: 40px;
 }
